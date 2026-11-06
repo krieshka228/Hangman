@@ -1,4 +1,4 @@
-public class Viselitsa
+public class Game
 {
     public  string GetWord(string[] words)
     {
@@ -17,7 +17,7 @@ public class Viselitsa
             switch(choice)
             {
                 case "1":
-                    Game(path);
+                    PlayGame(path);
                     break;
                 case "2":
                     break;
@@ -25,7 +25,7 @@ public class Viselitsa
         }
 
     }
-    public  void Game(string path)
+    public  void PlayGame(string path)
     {   string text = File.ReadAllText(path);
         string[] words = text.Split(',', StringSplitOptions.RemoveEmptyEntries);
         string word = GetWord(words);

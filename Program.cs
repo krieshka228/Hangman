@@ -6,7 +6,7 @@ public class Porgram
     public static void Main()
     {
         string path = "text.txt";
-        Viselitsa playGame = new Viselitsa();
+        Game playGame = new Game();
         playGame.MainMenu(path);
     }
 }
