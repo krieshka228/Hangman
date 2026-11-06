@@ -45,7 +45,7 @@ dotnet run -c Release
 ## Структура проекта
 
 ```
-hangman/
+viselitsa/
 ├── Program.cs          # точка входа
 ├── Game.cs             # логика игры
 ├── Words.txt     # источник слов
