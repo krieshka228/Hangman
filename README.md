@@ -18,8 +18,8 @@
 ## Установка
 
 ```bash
-git clone https://github.com/username/Viselitsa.git
-cd Viselitsa
+git clone https://github.com/username/Hangman.git
+cd Hangman
 ```
 
 ## Запуск
@@ -45,11 +45,11 @@ dotnet run -c Release
 ## Структура проекта
 
 ```
-viselitsa/
+Hangman/
 ├── Program.cs          # точка входа
 ├── Game.cs             # логика игры
 ├── Words.txt     # источник слов
-├── viselitsa.csproj
+├── Hangman.csproj
 └── README.md
 ```
 

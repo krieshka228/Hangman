@@ -1,12 +1,11 @@
 ﻿using System;
 using System.IO;
 
-public class Porgram
+public class Program
 {
     public static void Main()
     {
-        string path = "text.txt";
         Game playGame = new Game();
-        playGame.MainMenu(path);
+        playGame.MainMenu();
     }
 }
